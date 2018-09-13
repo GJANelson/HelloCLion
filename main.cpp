@@ -1,6 +1,7 @@
 #include <iostream>
+#include "gcd.hpp"
 
 int main() {
-    std::cout << "Andy is a cool kid" << std::endl;
+    std::cout << gcd(10, 25) << std::endl;
     return 0;
 }
